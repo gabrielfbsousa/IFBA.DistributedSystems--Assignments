@@ -1,0 +1,15 @@
+ 
+__________________________Compilar as classes
+javac atividadeRmi/ReceiveCalculationInterface.java 
+
+javac atividadeRmi/RmiServer.java 
+
+javac atividadeRmi/RmiClient.java 
+
+_________________________Abra um terminal nesta pasta, e execute o Servidor
+
+java atividadeRmi.RmiServer
+
+________________________Abra um novo terminal nesta pasta, e execute o Cliente
+
+java atividadeRmi/RmiClient <IP mostrado no servidor> 3232 

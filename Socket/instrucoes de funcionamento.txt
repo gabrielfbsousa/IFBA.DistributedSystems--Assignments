@@ -1,0 +1,13 @@
+ 
+__________________________Compilar as classes
+javac CalculatorClient.java 
+
+javac CalculatorServer.java 
+
+_________________________Abra um terminal nesta pasta, e execute o Servidor
+
+java CalculatorServer
+
+________________________Abra um novo terminal nesta pasta, e execute o Cliente
+
+java CalculatorClient
